@@ -25,7 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-background);
+    background-color: var(--color-secondary-dark);
 
     font-size: 100%;
 
@@ -41,6 +41,8 @@ textarea{
 
 }
 #container{
+   /* align-items: center;
+    display: flex;*/
     width: 90vw;
     max-width: 700px;
     /*border: 1px solid red;*/
