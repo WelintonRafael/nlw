@@ -46,13 +46,15 @@ color: var(--color-text-in-primary);
 width: 30rem;
 height: 10.4rem;
 border-radius: 0.8rem;
-margin-right: 1.6rem;
+margin-right: 24rem;
 font: 700 2.4rem Archivo;
 display: flex;
 align-items: center;
 justify-content: center;
 text-decoration: none;
+transition: background  0.2;
 color: var(--color-button-text);
+
 
 }
 .buttons-container a img{
@@ -60,11 +62,19 @@ color: var(--color-button-text);
     width: 4rem;
 
 }
+.buttons-container a.study:hover{
+
+    background: var(--color-primary-light);
+}
 .buttons-container a.study{
 
     background: var(--color-primary-lighter);
 
 
+}
+.buttons-container a.give-classes:hover{
+
+    background: var(--color-secondary-dark);
 }
 .buttons-container a.give-classes{
 background: var(--color-secondary);
